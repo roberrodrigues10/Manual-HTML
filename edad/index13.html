@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edad</title>
+</head>
+<body>
+    <script>
+        let edad1
+        let edad2
+        let edad3
+        let promedio
+        let anioNac1="2000"
+        let anioNac2="2001"
+        let anioNac3="2002"
+        let anioAct="2024"
+
+        edad1=anioAct-anioNac1
+        edad2=anioAct-anioNac2
+        edad3=anioAct-anioNac3
+        promedio=(edad1 + edad2 + edad3)/3
+
+        console.log(promedio)
+
+        if(promedio>=18){
+            console.log("el promedio de edades se idetifica una mayoria de edad")
+        }
+        else{
+            console.log("no")
+        }
+    </script>
+</body>
+</html>

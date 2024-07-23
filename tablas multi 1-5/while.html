@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numero
+        let multi=0
+        let producto
+        let limite=5
+        let cantidadpar
+        let cantidadimpar
+        while (multi<limite) {
+            multi=multi+1
+            numero=0
+            if (numero<5) {
+                numero=numero+1
+                producto=numero*multi
+                if (producto%2==0) {
+                    console.log("Buzz")
+                }
+                else{
+                    console.log("Bass")
+                }
+                if (producto%2==0) {
+                    cantidadpar++
+                    console.log("El total de numeros pares fueron\n"+producto)
+                }
+                else{
+                    cantidadimpar++
+                    console.log("El total de numeros impares fueron\n"+producto)
+
+                }
+            }
+        }
+    </script>
+</body>
+</html>

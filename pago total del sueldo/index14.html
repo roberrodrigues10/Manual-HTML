@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let salario
+        let subtras
+        let salud="140000"
+        let pension="100000"
+        let deducciones 
+        let totalpagar
+        let diast="30"
+        let valord="40000"
+        salario = diast*valord
+        salud = salario*0.12
+        pension = salario*0.16
+        arl = salario*0.052
+        deducciones = salud,pension,arl
+        if(salario<2300000){
+            subtras=162000
+        }
+        else{
+            subtras=0
+        }
+        totalpagar=salario+subtras-deducciones
+        console.log(salud)
+        console.log(pension)
+        console.log(arl)
+        console.log(subtras)
+        console.log(totalpagar)
+
+    </script>
+</body>
+</html>

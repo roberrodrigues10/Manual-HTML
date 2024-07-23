@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de cuadrados</title>
+</head>
+<body>
+    <script>
+        let cua1
+        let cua2
+        let cua3
+        let lado1=50
+        let lado2=50
+        let lado3=50
+        cuad1= lado1*lado1
+        cuad2= lado2*lado2
+        cuad3= lado3*lado3
+        if (cuad1 == cuad2 & cuad2 == cuad3 & cuad3 == cuad1) {
+            console.log ("Las areas son iguales")
+        } else if (cuad1 > cuad2 & cuad1 > cuad3) {
+            console.log ("El cuadrado 1 es el mayor")
+        } else if (cuad2 < cuad3) {
+            console.log("El cuadrado 3 es el mayor")
+        } else {
+            console.log("El cuadrado 2 es el mayor")
+        }
+
+    </script>
+</body>
+</html>
